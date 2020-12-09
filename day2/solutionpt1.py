@@ -1,10 +1,8 @@
 #!/bin/python3
 
 # 8-9 x: xxxxxxxrk
-import re
 lines=[]
 count = 0
-re = re.compile(":-\s")
 def test(line):
     occurance = line[3].count(line[2])
     if occurance >= line[0] and occurance <= line[1]:

@@ -15,6 +15,5 @@ myfile= open("input")
 for line in myfile:
     count = count + test(line,myindex)
     myindex = (myindex+3) % len(line.strip())
-    print(line.strip())
 
 print (count)
